@@ -293,7 +293,7 @@ h6,
 
 .bg-testimonial {
     background: url(../img/teamsrc.jpeg.png) center center no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .testimonial-carousel {
