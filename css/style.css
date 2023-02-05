@@ -358,6 +358,7 @@ h6,
 }
 .left1{
     float: right;
+    
     padding-left: 40px;
     text-align: center;
     justify-content: space-between;
@@ -380,4 +381,7 @@ body {
 
 .ins{
     text-align: center;
+}
+.bold{
+    font-weight: 1000;
 }
