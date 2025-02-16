@@ -1,88 +1,190 @@
-Cabin Variable Font
-===================
 
-This download contains Cabin as both variable fonts and static fonts.
+---
 
-Cabin is a variable font with these axes:
-  wdth
-  wght
+# Smiles of Waterbury – Dental Website
 
-This means all the styles are contained in these files:
-  Cabin-VariableFont_wdth,wght.ttf
-  Cabin-Italic-VariableFont_wdth,wght.ttf
+A responsive dental website for **Smiles of Waterbury**, showcasing various dental services, contact information, and an easy appointment booking process.
 
-If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Cabin:
-  static/Cabin_Condensed/Cabin_Condensed-Regular.ttf
-  static/Cabin_Condensed/Cabin_Condensed-Medium.ttf
-  static/Cabin_Condensed/Cabin_Condensed-SemiBold.ttf
-  static/Cabin_Condensed/Cabin_Condensed-Bold.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-Regular.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-Medium.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-SemiBold.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-Bold.ttf
-  static/Cabin/Cabin-Regular.ttf
-  static/Cabin/Cabin-Medium.ttf
-  static/Cabin/Cabin-SemiBold.ttf
-  static/Cabin/Cabin-Bold.ttf
-  static/Cabin_Condensed/Cabin_Condensed-Italic.ttf
-  static/Cabin_Condensed/Cabin_Condensed-MediumItalic.ttf
-  static/Cabin_Condensed/Cabin_Condensed-SemiBoldItalic.ttf
-  static/Cabin_Condensed/Cabin_Condensed-BoldItalic.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-Italic.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-MediumItalic.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-SemiBoldItalic.ttf
-  static/Cabin_SemiCondensed/Cabin_SemiCondensed-BoldItalic.ttf
-  static/Cabin/Cabin-Italic.ttf
-  static/Cabin/Cabin-MediumItalic.ttf
-  static/Cabin/Cabin-SemiBoldItalic.ttf
-  static/Cabin/Cabin-BoldItalic.ttf
+**Live Demo:** [Smiles of Waterbury on GitHub Pages](https://rohanpatil2.github.io/dental_web/index.html)  
+**Repository:** [GitHub – RohanPatil2/dental_web](https://github.com/RohanPatil2/dental_web)
 
-Get started
------------
+---
 
-1. Install the font files you want to use
+## Table of Contents
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+3. [Screenshots](#screenshots)  
+4. [Technologies Used](#technologies-used)  
+5. [Folder Structure](#folder-structure)  
+6. [Installation & Setup](#installation--setup)  
+7. [Usage](#usage)  
+8. [Contributing](#contributing)  
+9. [License](#license)  
+10. [Contact](#contact)
 
-2. Use your app's font picker to view the font family and all the
-available styles
+---
 
-Learn more about variable fonts
--------------------------------
+## Project Overview
 
-  https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts
-  https://variablefonts.typenetwork.com
-  https://medium.com/variable-fonts
+**Smiles of Waterbury** provides a modern, user-friendly platform for patients to explore dental services, learn about procedures, and conveniently schedule appointments. This website includes dedicated pages for services (e.g., fillings, extractions, crowns), contact details, and an embedded map for easy navigation.
 
-In desktop apps
+---
 
-  https://theblog.adobe.com/can-variable-fonts-illustrator-cc
-  https://helpx.adobe.com/nz/photoshop/using/fonts.html#variable_fonts
+## Features
 
-Online
+- **Responsive Layout** – Adapts to desktop, tablet, and mobile devices.  
+- **Comprehensive Services** – Separate pages for different treatments (crowns, fillings, implants, etc.).  
+- **Appointment Page** – “Book an Appointment” functionality and a new patient form.  
+- **Contact Information** – Clear phone number, address, and email details.  
+- **Google Map Embed** – Helps users locate the clinic quickly.  
+- **Clean Navigation** – A straightforward menu for easy browsing across pages.
 
-  https://developers.google.com/fonts/docs/getting_started
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-  https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts
+---
 
-Installing fonts
+## Screenshots
 
-  MacOS: https://support.apple.com/en-us/HT201749
-  Linux: https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux
-  Windows: https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows
+If you have screenshots named **a**, **b**, and **c** in the `img/` folder, you can reference them here. For example:
 
-Android Apps
+1. **Homepage**  
+   ![Screenshot A](img/a "Homepage")
 
-  https://developers.google.com/fonts/docs/android
-  https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
+2. **Services Section**  
+   ![Screenshot B](img/b "Services Section")
 
-License
--------
-Please read the full license text (OFL.txt) to understand the permissions,
-restrictions and requirements for usage, redistribution, and modification.
+3. **Contact Page**  
+   ![Screenshot C](img/c "Contact Page")
 
-You can use them in your products & projects – print or digital,
-commercial or otherwise.
+*(Adjust file paths if your actual images are named differently.)*
 
-This isn't legal advice, please consider consulting a lawyer and see the full
-license for all details.
+---
+
+## Technologies Used
+
+- **HTML5**  
+- **CSS3** (with SCSS, if applicable)  
+- **JavaScript**  
+- **Bootstrap** (if used)  
+- **GitHub Pages** for deployment
+
+---
+
+## Folder Structure
+
+Below is a simplified overview of the repository:
+
+```
+dental_web/
+│
+├── css/
+│   └── ... (CSS files)
+├── img/
+│   ├── a
+│   ├── b
+│   └── c
+├── js/
+│   └── ... (JavaScript files)
+├── lib/
+├── scss/
+├── static/
+│
+├── Cabin-Italic-VariableFont_wdth,wght.ttf
+├── Cabin-VariableFont_wdth,wght.ttf
+├── OFL.txt
+├── README.txt
+│
+├── about.html
+├── appointment.html
+├── childrenden.html
+├── contact.html
+├── crowns.html
+├── dental-clinic-website-template.jpg
+├── dentures.html
+├── extractions.html
+├── filling.html
+├── finance.html
+├── implants.html
+├── index.html
+├── invisalign.html
+├── new_patient_form(1).pdf
+├── periodontal.html
+├── price.html
+├── rootcanal.html
+├── service.html
+├── team.html
+├── testimonial.html
+├── veneers.html
+└── whitening.html
+```
+
+*(Include or remove files as needed if your structure differs.)*
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/RohanPatil2/dental_web.git
+   ```
+
+2. **Navigate into the project folder**  
+   ```bash
+   cd dental_web
+   ```
+
+3. **Open the project**  
+   - Double-click `index.html` to open it in your web browser, or  
+   - Use a local server (e.g., the Live Server extension in VSCode) for a better development experience.
+
+---
+
+## Usage
+
+- **Local**:  
+  Simply open `index.html` in a web browser or launch a local server to see how the website looks and functions.
+- **Online**:  
+  Visit the live demo on [GitHub Pages](https://rohanpatil2.github.io/dental_web/index.html) to view the deployed website.
+
+---
+
+## Contributing
+
+1. **Fork the repository** on GitHub.  
+2. **Create a new branch** for your changes:  
+   ```bash
+   git checkout -b feature/my-new-feature
+   ```
+3. **Commit your changes**:  
+   ```bash
+   git commit -m "Add some new feature"
+   ```
+4. **Push to the branch**:  
+   ```bash
+   git push origin feature/my-new-feature
+   ```
+5. **Create a Pull Request** to discuss, review, or merge your changes.
+
+---
+
+## License
+
+This project does not currently specify a license in the repository. You can add or update a license file (e.g., MIT, Apache, GPL) if you wish.  
+
+*(If you decide to use MIT License, for instance, add a `LICENSE` file and update this section accordingly.)*
+
+---
+
+## Contact
+
+For any inquiries or feedback:
+
+- **Email**: [smilesofwaterbury@gmail.com](mailto:smilesofwaterbury@gmail.com)  
+- **Phone**: (203) 527-6074  
+- **Address**: 164 Highland Avenue, Waterbury, CT 06708  
+
+Alternatively, open an [issue](https://github.com/RohanPatil2/dental_web/issues) in this repository.
+
+---
+
+**Thank you for visiting Smiles of Waterbury!**  
+We hope this website provides a helpful resource for dental patients. Feel free to submit any improvements or suggestions.
