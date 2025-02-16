@@ -1,3 +1,4 @@
+Below is an updated **README.md** with references to the specific image filenames (e.g., `img/a.png`, `img/b.png`, etc.) and additional details about the project’s pages, fonts, and setup. Feel free to modify any sections to match your exact file names or project requirements.
 
 ---
 
@@ -15,18 +16,19 @@ A responsive dental website for **Smiles of Waterbury**, showcasing various dent
 2. [Features](#features)  
 3. [Screenshots](#screenshots)  
 4. [Technologies Used](#technologies-used)  
-5. [Folder Structure](#folder-structure)  
-6. [Installation & Setup](#installation--setup)  
-7. [Usage](#usage)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-10. [Contact](#contact)
+5. [Pages Included](#pages-included)  
+6. [Folder Structure](#folder-structure)  
+7. [Installation & Setup](#installation--setup)  
+8. [Usage](#usage)  
+9. [Contributing](#contributing)  
+10. [License](#license)  
+11. [Contact](#contact)
 
 ---
 
 ## Project Overview
 
-**Smiles of Waterbury** provides a modern, user-friendly platform for patients to explore dental services, learn about procedures, and conveniently schedule appointments. This website includes dedicated pages for services (e.g., fillings, extractions, crowns), contact details, and an embedded map for easy navigation.
+**Smiles of Waterbury** provides a modern, user-friendly platform for patients to explore dental services, learn about procedures, and conveniently schedule appointments. This website includes dedicated pages for services (e.g., fillings, extractions, crowns), a contact page, a finance page, and an embedded map for easy navigation. A downloadable new patient form (PDF) is also provided.
 
 ---
 
@@ -34,37 +36,67 @@ A responsive dental website for **Smiles of Waterbury**, showcasing various dent
 
 - **Responsive Layout** – Adapts to desktop, tablet, and mobile devices.  
 - **Comprehensive Services** – Separate pages for different treatments (crowns, fillings, implants, etc.).  
-- **Appointment Page** – “Book an Appointment” functionality and a new patient form.  
+- **Appointment Page** – “Book an Appointment” functionality and a new patient form (PDF).  
 - **Contact Information** – Clear phone number, address, and email details.  
 - **Google Map Embed** – Helps users locate the clinic quickly.  
-- **Clean Navigation** – A straightforward menu for easy browsing across pages.
+- **Clean Navigation** – A straightforward menu for easy browsing across pages.  
+- **Custom Fonts** – Includes the Cabin font family with an open font license.
 
 ---
 
 ## Screenshots
 
-If you have screenshots named **a**, **b**, and **c** in the `img/` folder, you can reference them here. For example:
+Here are some example screenshots. Adjust the file paths and alt text as needed for your actual images:
 
 1. **Homepage**  
-   ![Screenshot A](a "Homepage")
+   ![Homepage](img/a.png "Homepage Screenshot")
 
 2. **Services Section**  
-   ![Screenshot B](b "Services Section")
+   ![Services](img/b.png "Services Screenshot")
 
 3. **Contact Page**  
-   ![Screenshot C](c "Contact Page")
+   ![Contact Page](img/c.png "Contact Page Screenshot")
 
-*(Adjust file paths if your actual images are named differently.)*
+*(Make sure your actual image files in the `img/` folder match these names: `a.png`, `b.png`, `c.png`, etc. If they differ, update the file names in the markdown.)*
 
 ---
 
 ## Technologies Used
 
 - **HTML5**  
-- **CSS3** (with SCSS, if applicable)  
+- **CSS3** (with optional SCSS if applicable)  
 - **JavaScript**  
-- **Bootstrap** (if used)  
-- **GitHub Pages** for deployment
+- **Bootstrap** (if used for layout/components)  
+- **GitHub Pages** (for deployment)  
+- **Cabin Font Family** (with [OFL.txt](https://scripts.sil.org/OFL) license included)
+
+---
+
+## Pages Included
+
+This project includes a variety of HTML pages to cover different aspects of dental services:
+
+- **index.html** – Homepage with a welcome message and main navigation.  
+- **about.html** – About the clinic or practice.  
+- **appointment.html** – Page to book an appointment (includes a PDF form).  
+- **childrenden.html** – Pediatric dentistry services.  
+- **contact.html** – Contact information and embedded Google Map.  
+- **crowns.html** – Information about dental crowns.  
+- **dentures.html** – Information about dentures.  
+- **extractions.html** – Information about tooth extractions.  
+- **filling.html** – Information about dental fillings.  
+- **finance.html** – Financing options or insurance information.  
+- **implants.html** – Information about dental implants.  
+- **invisalign.html** – Information about Invisalign services.  
+- **new_patient_form(1).pdf** – Downloadable PDF form for new patients.  
+- **periodontal.html** – Periodontal treatments.  
+- **price.html** – Pricing details or offers.  
+- **rootcanal.html** – Information about root canal therapy.  
+- **service.html** – Overview of all services offered.  
+- **team.html** – Meet the dentist(s) and staff.  
+- **testimonial.html** – Patient testimonials.  
+- **veneers.html** – Information about dental veneers.  
+- **whitening.html** – Teeth whitening services.
 
 ---
 
@@ -76,13 +108,13 @@ Below is a simplified overview of the repository:
 dental_web/
 │
 ├── css/
-│   └── ... (CSS files)
+│   └── ... (CSS files, e.g., style.css)
 ├── img/
-│   ├── a
-│   ├── b
-│   └── c
+│   ├── a.png
+│   ├── b.png
+│   └── c.png
 ├── js/
-│   └── ... (JavaScript files)
+│   └── ... (JavaScript files, e.g., script.js)
 ├── lib/
 ├── scss/
 ├── static/
@@ -116,8 +148,6 @@ dental_web/
 └── whitening.html
 ```
 
-*(Include or remove files as needed if your structure differs.)*
-
 ---
 
 ## Installation & Setup
@@ -136,14 +166,17 @@ dental_web/
    - Double-click `index.html` to open it in your web browser, or  
    - Use a local server (e.g., the Live Server extension in VSCode) for a better development experience.
 
+4. **(Optional) SCSS Compilation**  
+   - If you use SCSS files in the `scss/` folder, compile them to CSS using a SASS compiler (e.g., `sass scss/style.scss css/style.css`).
+
 ---
 
 ## Usage
 
-- **Local**:  
-  Simply open `index.html` in a web browser or launch a local server to see how the website looks and functions.
-- **Online**:  
-  Visit the live demo on [GitHub Pages](https://rohanpatil2.github.io/dental_web/index.html) to view the deployed website.
+- **Local**  
+  Open `index.html` in your web browser or launch a local server to explore the website and test functionality.  
+- **Online**  
+  Visit the live demo on [GitHub Pages](https://rohanpatil2.github.io/dental_web/index.html) to see the deployed website.
 
 ---
 
