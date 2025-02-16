@@ -46,13 +46,13 @@ A responsive dental website for **Smiles of Waterbury**, showcasing various dent
 If you have screenshots named **a**, **b**, and **c** in the `img/` folder, you can reference them here. For example:
 
 1. **Homepage**  
-   ![Screenshot A](img/a "Homepage")
+   ![Screenshot A](a "Homepage")
 
 2. **Services Section**  
-   ![Screenshot B](img/b "Services Section")
+   ![Screenshot B](b "Services Section")
 
 3. **Contact Page**  
-   ![Screenshot C](img/c "Contact Page")
+   ![Screenshot C](c "Contact Page")
 
 *(Adjust file paths if your actual images are named differently.)*
 
