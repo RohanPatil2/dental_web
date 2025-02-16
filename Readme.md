@@ -1,5 +1,3 @@
-Below is an updated **README.md** with references to the specific image filenames (e.g., `img/a.png`, `img/b.png`, etc.) and additional details about the project’s pages, fonts, and setup. Feel free to modify any sections to match your exact file names or project requirements.
-
 ---
 
 # Smiles of Waterbury – Dental Website
